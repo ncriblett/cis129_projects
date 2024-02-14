@@ -36,10 +36,11 @@ grandTotal = totalTax + subTotal # cost of coffee + muffins + tax
 print("My Coffee and Muffin shop")
 print(userCoffee,"Coffee at $5 each: $",coffeeSubTotal)
 print(userMuffin,"Muffin at $4 each: $",muffinSubTotal)
-print(userBagel, "Bagels at $2 easch: $", bagelSubTotal)
+print(userBagel, "Bagels at $2 each: $", bagelSubTotal)
 print(userDoughnut, "Doughnuts at $3 each: $", doughnutSubTotal)
 print("6% tax: $", totalTax)
 print("Total: $", grandTotal)
+print("Thank you for comming! Have a great day!")
 
 
 
