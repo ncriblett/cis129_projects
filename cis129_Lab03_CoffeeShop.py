@@ -33,7 +33,7 @@ subTotal = (coffeeSubTotal) + (muffinSubTotal) + doughnutSubTotal + bagelSubTota
 totalTax = subTotal * TAX #Cost of tax
 grandTotal = totalTax + subTotal # cost of coffee + muffins + tax
 
-print("My Coffee and Muffin shop")
+print("My Coffee and Muffin Shop Receipt")
 print(userCoffee,"Coffee at $5 each: $",coffeeSubTotal)
 print(userMuffin,"Muffin at $4 each: $",muffinSubTotal)
 print(userBagel, "Bagels at $2 each: $", bagelSubTotal)
