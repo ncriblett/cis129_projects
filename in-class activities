@@ -458,7 +458,7 @@ def sayHello(myFloat, myBoolean): # myFloat is a parameter
 
 #call a function with an argument
 sayHello(3.14, True) #3.14 is an argument 
-'''
+
 def Cubed(myInt):
     myInt = myInt ** 3
     return(myInt)
@@ -467,4 +467,4 @@ print()
 myNum = int(input("Enter a number you would liked cubed: "))
 cubedNum = Cubed(myNum)
 print(f"Your number: {myNum}    cubed is: {cubedNum}\n")
-
+'''
