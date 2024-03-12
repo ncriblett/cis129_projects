@@ -467,4 +467,18 @@ print()
 myNum = int(input("Enter a number you would liked cubed: "))
 cubedNum = Cubed(myNum)
 print(f"Your number: {myNum}    cubed is: {cubedNum}\n")
+
+
+def main():
+    myInt1 = int(input("Enter your first integer: "))
+    myInt2 = int(input("Enter your first integer: "))
+    calcAverage(myInt1, myInt2)
+
+def calcAverage(myInt1, myInt2):
+    sum = myInt1 + myInt2
+    average = sum / 2
+    print(f'The average of {myInt1} and {myInt2} is {average}')
+
+main()
 '''
+"***************************************************"
