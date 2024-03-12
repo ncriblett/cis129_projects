@@ -443,3 +443,28 @@ for i in range(6):
     print(f'{number:> 6}{square:> 9}{cube:> 7}')
     number = number + 1
 """
+"***************************************************"
+
+# 3/12/24 #
+# Functions 
+'''
+MYGLOBAL = 10 #Global variable
+
+#define a function
+def sayHello(myFloat, myBoolean): # myFloat is a parameter
+    myInt = 5 #local variabl
+    print(f'Hello {myInt} {myFloat} {myBoolean}')
+    
+
+#call a function with an argument
+sayHello(3.14, True) #3.14 is an argument 
+'''
+def Cubed(myInt):
+    myInt = myInt ** 3
+    return(myInt)
+
+print()
+myNum = int(input("Enter a number you would liked cubed: "))
+cubedNum = Cubed(myNum)
+print(f"Your number: {myNum}    cubed is: {cubedNum}\n")
+
