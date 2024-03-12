@@ -453,7 +453,7 @@ MYGLOBAL = 10 #Global variable
 #define a function
 def sayHello(myFloat, myBoolean): # myFloat is a parameter
     myInt = 5 #local variabl
-    print(f'Hello {myInt} {myFloat} {myBoolean}')
+    print(f'Hello {myInt} {myFloat} {myBoolean} {MYGLOBAL}')
     
 
 #call a function with an argument
