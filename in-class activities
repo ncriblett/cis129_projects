@@ -6,6 +6,8 @@
 # imports #
 from statistics import * #imports statistics
 from decimal import Decimal #imports decimal
+from math import * #imports math module: cieling, floor, ect
+from random import * #importa the random module
 
 
 
@@ -482,17 +484,3 @@ def calcAverage(myInt1, myInt2):
 main()
 '''
 "***************************************************"
-# 3/26/24 #
-'''
-x = 4 
-print('A' if x == 5 else 'B') #conditional print statement
-
-for i in range(20):
-    x = 0
-    x = randint(1, 2)
-    print('H' if x == 1 else 'T', end=' ')
-'''
-"***************************************************"
-# 4/9/24 #
-#Lists and Tuples
-#list[-1] gives the end index of the list
