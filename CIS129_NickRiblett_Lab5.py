@@ -3,9 +3,9 @@
 # This code gets the total number of bottles for a week and calculates the total earned from the bottles
 
 #Declared variables
-NBR_OF_DAY= 7
+NBR_OF_DAY = 7
 keepGoing = 'y'
-
+PAYOUT_PER_BOTTLE = 0.10
 
 while keepGoing == 'y':
     counter = 1 #Declares variables
@@ -17,7 +17,7 @@ while keepGoing == 'y':
         totalBottles = totalBottles + todayBottles
         counter += 1
    
-    totalPayout = totalBottles * 0.10 #gets total payout at 10 cents a bottle
+    totalPayout = totalBottles * PAYOUT_PER_BOTTLE #gets total payout at 10 cents a bottle
 
     print()
     print("The total number of bottles collected is ", totalBottles)
